@@ -1,6 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CardManager : MonoBehaviour
 {
@@ -16,14 +19,56 @@ public class CardManager : MonoBehaviour
 
     [SerializeField] private List<Defintion> currentDefinitions = new List<Defintion>();
 
-    [SerializeField] private List<Card> CurrentCards = new List<Card>();
+    [SerializeField] private List<CardDisplay> CardDisplayObjects;
 
     [SerializeField] private GameObject cardPrefab;
 
     [SerializeField] private GameObject hintObject;
 
-    private Difficulty setDifficulty;
+    [SerializeField] private Transform cardsParent;
 
+    public TMP_InputField inputField;
+
+    private Difficulty setDifficulty;
+    private List<Card> CurrentCards = new List<Card>();
+
+    private string currentDefinition = "";
+    [SerializeField] private int numberOfFlippedCards = 0;
+    private void OnEnable()
+    {
+        CardDisplay.flipCard += onCardFlipped;
+        inputField.onEndEdit.AddListener(WriteDefinition);
+    }
+
+    private void OnDisable()
+    {
+        CardDisplay.flipCard -= onCardFlipped;
+        inputField.onEndEdit.RemoveListener(WriteDefinition);
+    }
+
+
+    private void onCardFlipped(Card card)
+    {
+        Debug.Log(card.definition);
+        if(currentDefinition == card.definition)
+        {
+            numberOfFlippedCards++;
+        }
+        else
+        {
+            currentDefinition = card.definition;
+
+            foreach(CardDisplay cardDisplay in CardDisplayObjects)
+            {
+                if(!cardDisplay.isFlipped) continue;
+                cardDisplay.GetComponent<CardDisplay>().TurnCard();
+            }
+            numberOfFlippedCards = 1;
+        }
+
+
+
+    }
     private void Start()
     {
 
@@ -38,14 +83,15 @@ public class CardManager : MonoBehaviour
         }
         GenerateCards();
         PlaceCards();
+
+
     }
 
     // Update is called once per frame
     public void PlaceCards()
     {
 
-
-        GameObject CardsParent = Instantiate(setDifficulty.cardPositionPrefab, transform); 
+        GameObject CardsParent = Instantiate(setDifficulty.cardPositionPrefab, cardsParent); 
 
         for (int i = 0; i < CardsParent.transform.childCount; i++)
         {
@@ -53,6 +99,7 @@ public class CardManager : MonoBehaviour
 
             display.card = CurrentCards[Random.Range(0, CurrentCards.Count)];
             display.hintObject = hintObject;
+            CardDisplayObjects.Add(display);
             CurrentCards.Remove(display.card);
         }
     }
@@ -93,4 +140,26 @@ public class CardManager : MonoBehaviour
             }
         }
     }
+
+    public void WriteDefinition(string input)
+    {
+        Debug.Log(input);
+        List<GameObject> cardsToDestroy = new List<GameObject>();
+        foreach (CardDisplay card in CardDisplayObjects)
+        {
+            if(card.card.definition == input)
+            {
+                cardsToDestroy.Add(card.gameObject);
+            }
+        }
+
+        for(int i = cardsToDestroy.Count-1; i >= 0; i--)
+        {
+            hintObject.SetActive(false);
+            inputField.text = "";
+            CardDisplayObjects.Remove(cardsToDestroy[i].GetComponent<CardDisplay>());
+            Destroy(cardsToDestroy[i]);
+        }
+    }
+
 }
