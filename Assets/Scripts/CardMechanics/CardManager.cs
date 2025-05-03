@@ -118,8 +118,10 @@ public class CardManager : MonoBehaviour
             string[] hints = new string[MaxAmountOfHints];
 
             int i = 0;
+            int b = 0;
             while(i < MaxAmountOfHints)
             {
+                b++;
                 if(definition.Hints.Count == 0) { Debug.LogError("No hints found for definition: " + definition.Definition); break; }
                 string hint = definition.Hints[Random.Range(0, definition.Hints.Count)];
                 if (hints.Contains(hint))
@@ -131,7 +133,13 @@ public class CardManager : MonoBehaviour
                     hints[i] = hint;
                     i++;
                 }
-            }
+
+                if (b > 1000)
+                {
+                    Debug.LogError("Too many iterations while generating hints for definition: " + definition.Definition);
+                    break;
+                }
+               }
 
             for (int j = 0; j < hints.Length; j++)
             {

@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 7430201441930568970}
   - component: {fileID: 2651830105450250667}
   - component: {fileID: 8248893634101231905}
+  - component: {fileID: 8021122808785662980}
+  - component: {fileID: 7324809822039187080}
   m_Layer: 5
   m_Name: Card
   m_TagString: Untagged
@@ -109,6 +111,9 @@ MonoBehaviour:
     hint: 
     definition: 
   hintObject: {fileID: 0}
+  flipAnimation2: {fileID: 7400000, guid: 6bfb802b737769342a53fd7664db7a0f, type: 2}
+  flipAnimation1: {fileID: 7400000, guid: 8f8151b2e976fe0409574fe7b3a60c6e, type: 2}
+  brain: {fileID: 8021122808785662980}
 --- !u!114 &8248893634101231905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -165,3 +170,40 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &8021122808785662980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777099425085789893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad50f81b1d25c441943c37a89ba23f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Animator: {fileID: 7324809822039187080}
+  _Transitions: {fileID: 0}
+  _ActionOnDisable: 0
+--- !u!95 &7324809822039187080
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777099425085789893}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
