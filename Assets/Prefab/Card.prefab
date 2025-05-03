@@ -68,7 +68,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 853468681599754223, guid: e3d4168f2da32c64596abd2b29e05f02, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -104,6 +104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ee05abbb9832fd4ba3d58d6fa11af6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isFlipped: 0
   card:
     hint: 
     definition: 
