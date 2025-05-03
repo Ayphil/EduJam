@@ -6,5 +6,5 @@ public class Defintion : ScriptableObject
 {
     public string Definition;
     [TextArea(3, 10)]
-    public List<string> LinkedCards = new List<string>();
+    public List<string> Hints = new List<string>();
 }

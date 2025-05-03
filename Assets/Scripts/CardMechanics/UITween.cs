@@ -20,9 +20,8 @@ public class UITween : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     //Detect if the Cursor starts to pass over the GameObject
     public void OnPointerEnter(PointerEventData pointerEventData)
     {
-        Debug.Log("Pointer Entered: " + gameObject.name);
         //Output to console the GameObject's name and the following message
-        Tween.Scale(transform, Vector3.one * scaleFactor, 0.2f);
+        Tween.Scale(transform, initialScale * scaleFactor, 0.2f);
     }
 
     //Detect when Cursor leaves the GameObject

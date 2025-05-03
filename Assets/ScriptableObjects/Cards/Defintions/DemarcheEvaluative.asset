@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: DemarcheEvaluative
   m_EditorClassIdentifier: 
   Definition: "D\xC9MARCHE \xC9VALUATIVE "
-  LinkedCards:
+  Hints:
   - "Je suis compos\xE9e de cinq \xE9tapes, de la planification \xE0 la communication.\r\n"
-  - "On me suit pour \xE9viter de juger \xAB au feeling \xBB.\r\n\r\n"
+  - "On me suit pour \xE9viter de juger \xAB au feeling \xBB.\r\n"
   - "Je commence par \xAB quoi \xE9valuer ? \xBB et je termine par \xAB comment communiquer
-    ? \xBB. \r\n\r\n\r\n"
-  - "Mon but est de rendre le jugement professionnel rigoureux et structur\xE9.\r\n\n\r\n"
+    ? \xBB. \r\n"
+  - "Mon but est de rendre le jugement professionnel rigoureux et structur\xE9.\r\n"
