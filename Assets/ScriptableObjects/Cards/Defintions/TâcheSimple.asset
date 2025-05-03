@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2d7408527ece9704188a276530fa11c6, type: 3}
-  m_Name: Test 1
+  m_Name: "T\xE2cheSimple"
   m_EditorClassIdentifier: 
-  Definition: test
+  Definition: "T\xE2che Simple"
   Hints:
-  - test1
-  - test2
-  - test43
-  - test4
+  - "Je cible une ressource pr\xE9cise ou une habilet\xE9 unique"
+  - "Je suis souvent ferm\xE9e, avec une seule bonne r\xE9ponse"
+  - "Je ne permets pas vraiment d\u2019analyser des strat\xE9gies ou des raisonnements
+    complexes"
+  - "Je suis id\xE9ale pour v\xE9rifier une connaissance isol\xE9e ou une routine"

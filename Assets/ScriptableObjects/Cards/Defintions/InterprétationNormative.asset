@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7408527ece9704188a276530fa11c6, type: 3}
+  m_Name: "Interpr\xE9tationNormative"
+  m_EditorClassIdentifier: 
+  Definition: "Interpr\xE9tation Normative"
+  Hints:
+  - "Je m\u2019appuie sur une norme ou un groupe de r\xE9f\xE9rence"
+  - "Je dis si l\u2019\xE9l\xE8ve est \xAB dans la moyenne \xBB, \xAB en dessous
+    \xBB ou \xAB au-dessus \xBB"
+  - "Je peux produire des \xE9carts-types et des percentiles"
+  - "Je suis souvent utilis\xE9e dans des contextes s\xE9lectifs ou comp\xE9titifs.\r\nune
+    certaine souplesse locale"

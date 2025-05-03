@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d7408527ece9704188a276530fa11c6, type: 3}
   m_Name: DemarcheEvaluative
   m_EditorClassIdentifier: 
-  Definition: "D\xC9MARCHE \xC9VALUATIVE "
+  Definition: "D\xE9marche \xC9valuative"
   Hints:
   - "Je suis compos\xE9e de cinq \xE9tapes, de la planification \xE0 la communication.\r\n"
   - "On me suit pour \xE9viter de juger \xAB au feeling \xBB.\r\n"

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7408527ece9704188a276530fa11c6, type: 3}
+  m_Name: "Interpr\xE9tationDynamique"
+  m_EditorClassIdentifier: 
+  Definition: "Interpr\xE9tation Dynamique"
+  Hints:
+  - "Je m\u2019int\xE9resse \xE0 la progression d\u2019un m\xEAme \xE9l\xE8ve dans
+    le temps"
+  - "Je compare les r\xE9sultats d\u2019une m\xEAme personne \xE0 elle-m\xEAme"
+  - "Je soutiens la r\xE9troaction individualis\xE9e"
+  - "Je suis souvent utilis\xE9e dans une perspective d\u2019aide \xE0 l\u2019apprentissage"

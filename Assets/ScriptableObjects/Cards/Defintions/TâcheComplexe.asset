@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7408527ece9704188a276530fa11c6, type: 3}
+  m_Name: "T\xE2cheComplexe"
+  m_EditorClassIdentifier: 
+  Definition: "T\xE2che Complexe"
+  Hints:
+  - "J\u2019exige de combiner plusieurs ressources pour r\xE9soudre une situation"
+  - "Je refl\xE8te davantage ce qui pourrait arriver dans la vraie vie"
+  - "Il n\u2019y a pas une seule bonne r\xE9ponse, mais plusieurs fa\xE7ons pertinentes
+    de r\xE9ussir"
+  - "Je suis souvent utilis\xE9e pour \xE9valuer des comp\xE9tences"

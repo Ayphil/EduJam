@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7408527ece9704188a276530fa11c6, type: 3}
+  m_Name: "Valeurs\xC9valuativesInstrumentales"
+  m_EditorClassIdentifier: 
+  Definition: "Valeurs \xC9valuatives Instrumentales"
+  Hints:
+  - "Je suis orient\xE9e vers l'application pratique et la prise de d\xE9cisions
+    bas\xE9es sur des donn\xE9es collect\xE9es lors de l\u2019\xE9valuation"
+  - "Je permets de suivre l\u2019\xE9volution des \xE9l\xE8ves et d\u2019adapter
+    l\u2019enseignement en fonction des r\xE9sultats"
+  - "Je cherche \xE0 garantir que l\u2019\xE9valuation soit men\xE9e avec exactitude
+    et en utilisant des crit\xE8res clairs"
+  - "Je suis ce qui permet d'assurer que l\u2019\xE9valuation aide \xE0 la prise
+    de d\xE9cisions concernant l'orientation des apprentissages et des pratiques
+    p\xE9dagogiques"
