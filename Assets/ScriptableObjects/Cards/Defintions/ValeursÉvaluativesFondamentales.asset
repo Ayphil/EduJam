@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d7408527ece9704188a276530fa11c6, type: 3}
   m_Name: "Valeurs\xC9valuativesFondamentales"
   m_EditorClassIdentifier: 
-  Definition: test1
+  Definition: "Valeurs \xC9valuatives Fondamentales"
   Hints:
   - t
   - t
