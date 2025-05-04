@@ -2601,7 +2601,8 @@ MonoBehaviour:
   hudScript: {fileID: 1500612166}
   SFX: {fileID: 1640690950}
   EndSound: {fileID: 8300000, guid: 58425b8bc400ab9489f51300347ae639, type: 3}
-  ClearSound: {fileID: 0}
+  ClearSound: {fileID: 8300000, guid: e417f9f96a369a34b8fa7616e0f88995, type: 3}
+  PermenantRessources: {fileID: 0}
   difficultyLevel: 0
   AmountOfDefintions: 0
   MaxAmountOfHints: 0

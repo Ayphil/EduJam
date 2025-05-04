@@ -31,6 +31,7 @@ public class CardManager : MonoBehaviour
 
     [SerializeField] private AudioClip ClearSound;
 
+    [SerializeField] public Ressources PermenantRessources;
 
     [Header("Internal Logic/Debugging")]
 
@@ -241,6 +242,9 @@ public class CardManager : MonoBehaviour
             endScreen.SetActive(true);
             hudScript.EndCheckmarkText.GetComponent<TMP_Text>().text = hudScript.goldenCheckmarks.ToString();
             hudScript.EndScoreText.GetComponent<TMP_Text>().text = hudScript.score.ToString();
+            PermenantRessources.goldenCheckmarks += hudScript.goldenCheckmarks;
+            PermenantRessources.CheckForHighScore(hudScript.score);
+
         }
     }
 
