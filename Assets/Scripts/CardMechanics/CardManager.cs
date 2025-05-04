@@ -175,6 +175,7 @@ public class CardManager : MonoBehaviour
 
     public void WriteDefinition(string input)
     {
+        if (input == "") { return; }
         Debug.Log(input);
         List<GameObject> cardsToDestroy = new List<GameObject>();
         foreach (CardDisplay card in CardDisplayObjects)
@@ -191,8 +192,8 @@ public class CardManager : MonoBehaviour
             inputField.text = "";
             CardDisplayObjects.Remove(cardsToDestroy[i].GetComponent<CardDisplay>());
             Destroy(cardsToDestroy[i]);
-            hudScript.GetCheckmarks(difficultyLevel);
         }
+        hudScript.GetCheckmarks(difficultyLevel);
     }
 
 

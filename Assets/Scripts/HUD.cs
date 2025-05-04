@@ -13,11 +13,11 @@ public class HUD : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void GetCheckmarks(Difficulty.DifficultyLevel level)
     {
-        if(level == Difficulty.DifficultyLevel.Easy && level == Difficulty.DifficultyLevel.Medium)
+        if (level == Difficulty.DifficultyLevel.Easy || level == Difficulty.DifficultyLevel.Medium)
         {
             goldenCheckmarks += 1;
         }
-        else if (level == Difficulty.DifficultyLevel.Hard && level == Difficulty.DifficultyLevel.Hell)
+        else if (level == Difficulty.DifficultyLevel.Hard || level == Difficulty.DifficultyLevel.Hell)
         {
             goldenCheckmarks += 2;
         }
