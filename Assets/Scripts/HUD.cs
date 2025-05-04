@@ -34,6 +34,6 @@ public class HUD : MonoBehaviour
     // Update is called once per frame
     public void LoadMainMenu()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 }
