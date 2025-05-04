@@ -885,7 +885,37 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      golden_checkmark_glitter_64-sheet_0: 6097713855875912382
+      golden_checkmark_glitter_64-sheet_1: -71633393869076852
+      golden_checkmark_glitter_64-sheet_10: -5876057016610917206
+      golden_checkmark_glitter_64-sheet_11: 6519830285177563995
+      golden_checkmark_glitter_64-sheet_12: -7301851210259806741
+      golden_checkmark_glitter_64-sheet_13: -6670416542842269072
+      golden_checkmark_glitter_64-sheet_14: -7787712680233767953
+      golden_checkmark_glitter_64-sheet_15: -5309463573861643830
+      golden_checkmark_glitter_64-sheet_16: 7375521022735033169
+      golden_checkmark_glitter_64-sheet_17: 4647033037676558814
+      golden_checkmark_glitter_64-sheet_18: -8841704033250539315
+      golden_checkmark_glitter_64-sheet_19: 3352462888984928144
+      golden_checkmark_glitter_64-sheet_2: 6379339833034475160
+      golden_checkmark_glitter_64-sheet_20: 8405898074756024393
+      golden_checkmark_glitter_64-sheet_21: -1722392902469136125
+      golden_checkmark_glitter_64-sheet_22: 6726178254443441191
+      golden_checkmark_glitter_64-sheet_23: 6927224292923503842
+      golden_checkmark_glitter_64-sheet_24: 8990329337508218332
+      golden_checkmark_glitter_64-sheet_25: 5677541095970768169
+      golden_checkmark_glitter_64-sheet_26: -3463603849059883255
+      golden_checkmark_glitter_64-sheet_27: 7411192069531472720
+      golden_checkmark_glitter_64-sheet_28: -1559204229502314666
+      golden_checkmark_glitter_64-sheet_29: 3817510541756174827
+      golden_checkmark_glitter_64-sheet_3: -8274696939813355731
+      golden_checkmark_glitter_64-sheet_4: -4176768078296833103
+      golden_checkmark_glitter_64-sheet_5: 5927607134147559357
+      golden_checkmark_glitter_64-sheet_6: -4175083445960103324
+      golden_checkmark_glitter_64-sheet_7: -4717108122987018530
+      golden_checkmark_glitter_64-sheet_8: 4107388749587442217
+      golden_checkmark_glitter_64-sheet_9: -5152831975744612271
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
