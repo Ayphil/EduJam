@@ -1,7 +1,6 @@
 using System;
 using Animancer;
 using TMPro;
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -51,6 +50,6 @@ public class HUD : MonoBehaviour
     // Update is called once per frame
     public void LoadMainMenu()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
 }

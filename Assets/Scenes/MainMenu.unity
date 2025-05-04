@@ -618,6 +618,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 271997582}
   m_CullTransparentMesh: 1
+--- !u!1 &275440224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 275440225}
+  - component: {fileID: 275440227}
+  - component: {fileID: 275440226}
+  m_Layer: 0
+  m_Name: HatSlot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &275440225
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 275440224}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 45}
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1874260799}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -767, y: -238}
+  m_SizeDelta: {x: 64, y: 64}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &275440226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 275440224}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &275440227
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 275440224}
+  m_CullTransparentMesh: 1
 --- !u!1 &325988666
 GameObject:
   m_ObjectHideFlags: 0
@@ -3683,6 +3758,8 @@ GameObject:
   - component: {fileID: 1537567592}
   - component: {fileID: 1537567594}
   - component: {fileID: 1537567593}
+  - component: {fileID: 1537567596}
+  - component: {fileID: 1537567595}
   m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
@@ -3747,6 +3824,43 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1537567591}
   m_CullTransparentMesh: 1
+--- !u!95 &1537567595
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537567591}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1537567596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537567591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad50f81b1d25c441943c37a89ba23f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Animator: {fileID: 1537567595}
+  _Transitions: {fileID: 0}
+  _ActionOnDisable: 0
 --- !u!1 &1574683588
 GameObject:
   m_ObjectHideFlags: 0
@@ -4346,13 +4460,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17dfec1031459c549ba8644a6ef4ad8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goldenCheckmarks: 15
+  goldenCheckmarks: 0
   highScore: 0
+  PaddyHat: {fileID: 0}
   difficultyLevel: 0
   isNormalUnlocked: 0
   isHardUnlocked: 0
   isHellUnlocked: 0
   isFirstLaunch: 1
+  hat1Unlocked: 0
+  hat2Unlocked: 0
+  hat3Unlocked: 0
+  hat4Unlocked: 0
+  hat5Unlocked: 0
+  hat6Unlocked: 0
 --- !u!4 &1805995577
 Transform:
   m_ObjectHideFlags: 0
@@ -4534,6 +4655,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1537567592}
+  - {fileID: 275440225}
   - {fileID: 829927736}
   m_Father: {fileID: 1726120622}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4556,9 +4678,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ressources: {fileID: 0}
   paddyThePadTextBox: {fileID: 829927735}
+  Hat: {fileID: 275440226}
   TutorialText: "Salut, moi c'est Paddy! Tente d'avoir le meilleur score en trouvant
     les d\xE9finitions!"
   cheeringTexts: []
+  timeToNextInterruption: 5
+  timeToNextChange: 2
+  body: {fileID: 1537567593}
+  brain: {fileID: 1537567596}
+  animationClip: {fileID: 7400000, guid: a955ca1140f1c7243ab7e9223b290d2a, type: 2}
+  sprites:
+  - {fileID: 2840905626815987142, guid: c8718466e507ac34e9ad0d9231a315c9, type: 3}
+  - {fileID: 2116615233478643109, guid: 222f55547af112e458e23e2289541f3a, type: 3}
+  - {fileID: 6646521819604533556, guid: 8eb1cf84eef4fbc44b872c6a4f65b74f, type: 3}
 --- !u!1 &1885902203
 GameObject:
   m_ObjectHideFlags: 0

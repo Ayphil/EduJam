@@ -1,0 +1,1247 @@
+fileFormatVersion: 2
+guid: ee130d1c366b61740b73f3b3e272717b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3425994915597634748
+    second: mascot_idleanimation1_color_64_0
+  - first:
+      213: -3519053106286043943
+    second: mascot_idleanimation1_color_64_1
+  - first:
+      213: 8724093222647826007
+    second: mascot_idleanimation1_color_64_2
+  - first:
+      213: -8479239677343070497
+    second: mascot_idleanimation1_color_64_3
+  - first:
+      213: -6928919099210187696
+    second: mascot_idleanimation1_color_64_4
+  - first:
+      213: -3349185317785237179
+    second: mascot_idleanimation1_color_64_5
+  - first:
+      213: -1381505927838907251
+    second: mascot_idleanimation1_color_64_6
+  - first:
+      213: -5445259436285831493
+    second: mascot_idleanimation1_color_64_7
+  - first:
+      213: -4494727438846755636
+    second: mascot_idleanimation1_color_64_8
+  - first:
+      213: 4666710785589163589
+    second: mascot_idleanimation1_color_64_9
+  - first:
+      213: -3636493149010204511
+    second: mascot_idleanimation1_color_64_10
+  - first:
+      213: -41943857353905046
+    second: mascot_idleanimation1_color_64_11
+  - first:
+      213: -3755711964274956411
+    second: mascot_idleanimation1_color_64_12
+  - first:
+      213: -8431839514730943313
+    second: mascot_idleanimation1_color_64_13
+  - first:
+      213: -3762218523105049254
+    second: mascot_idleanimation1_color_64_14
+  - first:
+      213: -7917263569534461891
+    second: mascot_idleanimation1_color_64_15
+  - first:
+      213: -611777778083385350
+    second: mascot_idleanimation1_color_64_16
+  - first:
+      213: 2115895973295774092
+    second: mascot_idleanimation1_color_64_17
+  - first:
+      213: -7680318621965101200
+    second: mascot_idleanimation1_color_64_18
+  - first:
+      213: 2093782603446866685
+    second: mascot_idleanimation1_color_64_19
+  - first:
+      213: 3858844986798847983
+    second: mascot_idleanimation1_color_64_20
+  - first:
+      213: 3005808195116430645
+    second: mascot_idleanimation1_color_64_21
+  - first:
+      213: -3133961752022296319
+    second: mascot_idleanimation1_color_64_22
+  - first:
+      213: -1062660171467514794
+    second: mascot_idleanimation1_color_64_23
+  - first:
+      213: 1898347495200224624
+    second: mascot_idleanimation1_color_64_24
+  - first:
+      213: -6458058303373273040
+    second: mascot_idleanimation1_color_64_25
+  - first:
+      213: -2716247666417827544
+    second: mascot_idleanimation1_color_64_26
+  - first:
+      213: 6910323503689557785
+    second: mascot_idleanimation1_color_64_27
+  - first:
+      213: 24678680483134196
+    second: mascot_idleanimation1_color_64_28
+  - first:
+      213: 6230497138850905130
+    second: mascot_idleanimation1_color_64_29
+  - first:
+      213: 7339836189184616828
+    second: mascot_idleanimation1_color_64_30
+  - first:
+      213: 6853900778389929012
+    second: mascot_idleanimation1_color_64_31
+  - first:
+      213: -5779548916031260480
+    second: mascot_idleanimation1_color_64_32
+  - first:
+      213: 4354435076453231048
+    second: mascot_idleanimation1_color_64_33
+  - first:
+      213: -6753558033723999283
+    second: mascot_idleanimation1_color_64_34
+  - first:
+      213: 5192149797503933678
+    second: mascot_idleanimation1_color_64_35
+  - first:
+      213: -8324681547345314327
+    second: mascot_idleanimation1_color_64_36
+  - first:
+      213: 7854698178578580700
+    second: mascot_idleanimation1_color_64_37
+  - first:
+      213: 4926618115543621811
+    second: mascot_idleanimation1_color_64_38
+  - first:
+      213: 2970283575548076893
+    second: mascot_idleanimation1_color_64_39
+  - first:
+      213: -1626685613183095943
+    second: mascot_idleanimation1_color_64_40
+  - first:
+      213: -6321328509861511764
+    second: mascot_idleanimation1_color_64_41
+  - first:
+      213: -3572173118830375271
+    second: mascot_idleanimation1_color_64_42
+  - first:
+      213: 4284022091122732925
+    second: mascot_idleanimation1_color_64_43
+  - first:
+      213: -7696401039961037794
+    second: mascot_idleanimation1_color_64_44
+  - first:
+      213: 2249177454682101320
+    second: mascot_idleanimation1_color_64_45
+  - first:
+      213: -1861486182350233721
+    second: mascot_idleanimation1_color_64_46
+  - first:
+      213: -2676934664708519154
+    second: mascot_idleanimation1_color_64_47
+  - first:
+      213: -2179883972396700093
+    second: mascot_idleanimation1_color_64_48
+  - first:
+      213: 1422325896672864796
+    second: mascot_idleanimation1_color_64_49
+  - first:
+      213: 1748987292447635184
+    second: mascot_idleanimation1_color_64_50
+  - first:
+      213: -1694470981915440118
+    second: mascot_idleanimation1_color_64_51
+  - first:
+      213: -7676722459087421505
+    second: mascot_idleanimation1_color_64_52
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77bc7fa9b31bb504cbc276fd60881171
+      internalID: 2106681306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd695b52e29c5143b1d275b9d054914
+      internalID: -1083610619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a99f1e1544492448e3ccf5fbe11e00
+      internalID: -669738559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e057cc9d6d61e84096d21732455fd78
+      internalID: -1256190830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96412a618fbbac642ae9d295ea121bfc
+      internalID: 1801249857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d45701d1ee5dbe41b279d4e55a9cbbf
+      internalID: 727441090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91289c690a9bd3f439620be796954b8b
+      internalID: -308063773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26515133f029b20419dbde22151cfd23
+      internalID: -975936079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71209b9a88b34454a96d2ab4de5fd8c2
+      internalID: -1414105772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9598c414c27f7140839466cd234dfcc
+      internalID: -1864697150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0116a234aeed37c48b7dc4255353a692
+      internalID: 1001775351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00e157e2b8dc6349ba4d0679642df52
+      internalID: 746373056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0068e414e5300f2488b08b6f2ff4700d
+      internalID: 1528691204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319bd605ae8ebed40a34dab720192db4
+      internalID: -653361273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa40a18221f6531428695015771dd72c
+      internalID: -140354627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ddfa7ae1e2da5343a1a1c0fae0d1199
+      internalID: 429980182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_16
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4c10cc92353e14588c895e21752b8b
+      internalID: 536229661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_17
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d778a4f13a079354c800a916fd671c9a
+      internalID: 965344633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_18
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a8d81143991ab46a8881ac16245697
+      internalID: -1278454012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_19
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a7d3748e29b5046ae6e6ae943a763f
+      internalID: 2076403487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_20
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda29bdfb99854243bff80f0240a6a0b
+      internalID: -986244672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_21
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a54bf75c2ebe1b43879bb5b4e7fc056
+      internalID: -13108014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_22
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc91722e239d1340868f545b30df883
+      internalID: 62970495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_23
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37218ef188ddac44b25f5e4c5761b6b
+      internalID: -176557958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_24
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a640c5d83e816444e946459dbc98b28c
+      internalID: -1431611844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_25
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbf33fbbba8cf54cb0af6c8ce734da4
+      internalID: -615607388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_26
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578cc4df00d037044a2c701d322c5bba
+      internalID: 1893827686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_27
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7854afe17761de847bff02afb536c516
+      internalID: -198635052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_28
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f04ec4c9e269a48803e64e7f1a78b6
+      internalID: 1281493525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_29
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a3bf30710d4fe41bd12cfdfad443b5
+      internalID: 1206199906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_30
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef50cb028a8c6147a2eec8772e46383
+      internalID: 1042327710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_31
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5d413329889ae42a4cb6fcb0e6e4e7
+      internalID: 226134597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_32
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5081fd9cf0a699a42b5e2d293f5c1c22
+      internalID: -908270329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_33
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2702932fa67eb5f47a62a78465cf9e09
+      internalID: -1433137651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_34
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ddc9da36ef48b4b9fc473eb65a89f8
+      internalID: 1337647063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_35
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce175f627c3b5b54da2be5280e467100
+      internalID: 910412618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_36
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e096d720548848249a685d5d8e44da33
+      internalID: 1588421518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_37
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410a42f1e7c43cf49a0b88ccc5124ea5
+      internalID: 1166107907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_38
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc55c0459ccf1f4fb4ffc7bc98fb301
+      internalID: 1539191430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_39
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9be0e20635aba149b113ec5c3104898
+      internalID: -1929212722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mascot_idleanimation1_color_64_40
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9812c7775245a6444a6b763a14935e3c
+      internalID: -269062299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c8a1a0087e08b5b45b43cf5116ed4cc5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      mascot_idleanimation1_color_64_0: 2106681306
+      mascot_idleanimation1_color_64_1: -1083610619
+      mascot_idleanimation1_color_64_10: 1001775351
+      mascot_idleanimation1_color_64_11: 746373056
+      mascot_idleanimation1_color_64_12: 1528691204
+      mascot_idleanimation1_color_64_13: -653361273
+      mascot_idleanimation1_color_64_14: -140354627
+      mascot_idleanimation1_color_64_15: 429980182
+      mascot_idleanimation1_color_64_16: 536229661
+      mascot_idleanimation1_color_64_17: 965344633
+      mascot_idleanimation1_color_64_18: -1278454012
+      mascot_idleanimation1_color_64_19: 2076403487
+      mascot_idleanimation1_color_64_2: -669738559
+      mascot_idleanimation1_color_64_20: -986244672
+      mascot_idleanimation1_color_64_21: -13108014
+      mascot_idleanimation1_color_64_22: 62970495
+      mascot_idleanimation1_color_64_23: -176557958
+      mascot_idleanimation1_color_64_24: -1431611844
+      mascot_idleanimation1_color_64_25: -615607388
+      mascot_idleanimation1_color_64_26: 1893827686
+      mascot_idleanimation1_color_64_27: -198635052
+      mascot_idleanimation1_color_64_28: 1281493525
+      mascot_idleanimation1_color_64_29: 1206199906
+      mascot_idleanimation1_color_64_3: -1256190830
+      mascot_idleanimation1_color_64_30: 1042327710
+      mascot_idleanimation1_color_64_31: 226134597
+      mascot_idleanimation1_color_64_32: -908270329
+      mascot_idleanimation1_color_64_33: -1433137651
+      mascot_idleanimation1_color_64_34: 1337647063
+      mascot_idleanimation1_color_64_35: 910412618
+      mascot_idleanimation1_color_64_36: 1588421518
+      mascot_idleanimation1_color_64_37: 1166107907
+      mascot_idleanimation1_color_64_38: 1539191430
+      mascot_idleanimation1_color_64_39: -1929212722
+      mascot_idleanimation1_color_64_4: 1801249857
+      mascot_idleanimation1_color_64_40: -269062299
+      mascot_idleanimation1_color_64_5: 727441090
+      mascot_idleanimation1_color_64_6: -308063773
+      mascot_idleanimation1_color_64_7: -975936079
+      mascot_idleanimation1_color_64_8: -1414105772
+      mascot_idleanimation1_color_64_9: -1864697150
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
