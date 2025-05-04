@@ -15,6 +15,10 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene(3);
     }
+    public void Dictionary()
+    {
+        SceneManager.LoadScene(4);
+    }
     public void Quit()
     {
         Application.Quit();
