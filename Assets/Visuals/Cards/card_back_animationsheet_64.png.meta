@@ -1,34 +1,34 @@
 fileFormatVersion: 2
-guid: e5031a5cacef4104ca4bf349d9b38d34
+guid: f8b570fee5f8ab34e8c20fcb2faa6510
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7029571391834963576
-    second: card_default_animationsheet_32_1_0
+      213: -1596926538052276383
+    second: card_back_animationsheet_64_0
   - first:
-      213: -4031373772410242547
-    second: card_default_animationsheet_32_1_1
+      213: 6405335320091509247
+    second: card_back_animationsheet_64_1
   - first:
-      213: -4181420048796033106
-    second: card_default_animationsheet_32_1_2
+      213: 3132503378693040960
+    second: card_back_animationsheet_64_2
   - first:
-      213: 7679220082843808877
-    second: card_default_animationsheet_32_1_3
+      213: -493767265774731265
+    second: card_back_animationsheet_64_3
   - first:
-      213: 6868781794823333796
-    second: card_default_animationsheet_32_1_4
+      213: -8066629573369484100
+    second: card_back_animationsheet_64_4
   - first:
-      213: -1389411285854996706
-    second: card_default_animationsheet_32_1_5
+      213: 4004859413368719244
+    second: card_back_animationsheet_64_5
   - first:
-      213: -100162522769495900
-    second: card_default_animationsheet_32_1_6
+      213: -600633829418372243
+    second: card_back_animationsheet_64_6
   - first:
-      213: -3091003557412962257
-    second: card_default_animationsheet_32_1_7
+      213: 2681181356477141805
+    second: card_back_animationsheet_64_7
   - first:
-      213: 4743535046103922468
-    second: card_default_animationsheet_32_1_8
+      213: -7984906368774710861
+    second: card_back_animationsheet_64_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +75,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -150,7 +150,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: card_default_animationsheet_32_1_0
+      name: card_back_animationsheet_64_0
       rect:
         serializedVersion: 2
         x: 0
@@ -165,14 +165,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 87e3295cfed0e8160800000000000000
-      internalID: 7029571391834963576
+      spriteID: 16feff646c396d9e0800000000000000
+      internalID: -1596926538052276383
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: card_default_animationsheet_32_1_1
+      name: card_back_animationsheet_64_1
       rect:
         serializedVersion: 2
         x: 64
@@ -187,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d0a39a2c9eead08c0800000000000000
-      internalID: -4031373772410242547
+      spriteID: ff14155698254e850800000000000000
+      internalID: 6405335320091509247
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: card_default_animationsheet_32_1_2
+      name: card_back_animationsheet_64_2
       rect:
         serializedVersion: 2
         x: 128
@@ -209,14 +209,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eafd0d6ae9c98f5c0800000000000000
-      internalID: -4181420048796033106
+      spriteID: 04ba5b8e933e87b20800000000000000
+      internalID: 3132503378693040960
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: card_default_animationsheet_32_1_3
+      name: card_back_animationsheet_64_3
       rect:
         serializedVersion: 2
         x: 192
@@ -231,14 +231,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d6473f5aaf1129a60800000000000000
-      internalID: 7679220082843808877
+      spriteID: ffff7c1b949c529f0800000000000000
+      internalID: -493767265774731265
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: card_default_animationsheet_32_1_4
+      name: card_back_animationsheet_64_4
       rect:
         serializedVersion: 2
         x: 265
@@ -253,14 +253,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4a76d1866a0d25f50800000000000000
-      internalID: 6868781794823333796
+      spriteID: cbca6a054239d0090800000000000000
+      internalID: -8066629573369484100
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: card_default_animationsheet_32_1_5
+      name: card_back_animationsheet_64_5
       rect:
         serializedVersion: 2
         x: 342
@@ -275,14 +275,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e17b1b30cc1d7bce0800000000000000
-      internalID: -1389411285854996706
+      spriteID: c87c835fa6e149730800000000000000
+      internalID: 4004859413368719244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: card_default_animationsheet_32_1_6
+      name: card_back_animationsheet_64_6
       rect:
         serializedVersion: 2
         x: 408
@@ -297,14 +297,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4a8648a57b62c9ef0800000000000000
-      internalID: -100162522769495900
+      spriteID: d637f65e6be1aa7f0800000000000000
+      internalID: -600633829418372243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: card_default_animationsheet_32_1_7
+      name: card_back_animationsheet_64_7
       rect:
         serializedVersion: 2
         x: 450
@@ -319,14 +319,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f208ee034ac8a15d0800000000000000
-      internalID: -3091003557412962257
+      spriteID: d23583bfc38753520800000000000000
+      internalID: 2681181356477141805
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: card_default_animationsheet_32_1_8
+      name: card_back_animationsheet_64_8
       rect:
         serializedVersion: 2
         x: 512
@@ -341,8 +341,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 427f3aafdfb64d140800000000000000
-      internalID: 4743535046103922468
+      spriteID: 3b9dd64a6f9ef2190800000000000000
+      internalID: -7984906368774710861
       vertices: []
       indices: 
       edges: []
@@ -360,16 +360,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      card_default_animationsheet_32_1_0: 7029571391834963576
-      card_default_animationsheet_32_1_1: -4031373772410242547
-      card_default_animationsheet_32_1_2: -4181420048796033106
-      card_default_animationsheet_32_1_3: 7679220082843808877
-      card_default_animationsheet_32_1_4: 6868781794823333796
-      card_default_animationsheet_32_1_5: -1389411285854996706
-      card_default_animationsheet_32_1_6: -100162522769495900
-      card_default_animationsheet_32_1_7: -3091003557412962257
-      card_default_animationsheet_32_1_8: 4743535046103922468
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

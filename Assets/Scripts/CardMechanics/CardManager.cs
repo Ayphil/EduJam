@@ -1,5 +1,7 @@
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
+using System.Text;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -22,6 +24,14 @@ public class CardManager : MonoBehaviour
     [SerializeField] private TMP_InputField inputField;
 
     [SerializeField] private HUD hudScript;
+
+    [SerializeField] private AudioSource SFX;
+
+    [SerializeField] private AudioClip EndSound;
+
+    [SerializeField] private AudioClip ClearSound;
+
+    [SerializeField] public Ressources PermenantRessources;
 
     [Header("Internal Logic/Debugging")]
 
@@ -120,6 +130,7 @@ public class CardManager : MonoBehaviour
             {
                 display.card = CurrentCards[Random.Range(0, CurrentCards.Count)];
                 display.hintObject = hintObject;
+                display.flipSound1 = SFX;
                 CardDisplayObjects.Add(display);
                 CurrentCards.Remove(display.card);
             }
@@ -177,22 +188,36 @@ public class CardManager : MonoBehaviour
 
     public void WriteDefinition(string input)
     {
-        foreach(Defintion definition in currentDefinitions)
+        input = NormalizeString(input);
+        if (input == "") { return; }
+        bool isCorrect = false;
+
+        foreach (Defintion definition in currentDefinitions)
         {
-            if (input == definition.Definition)
+            Debug.Log(input + " - " + NormalizeString(definition.Definition));
+            if (input == NormalizeString(definition.Definition))
             {
-                inputField.text = "";
-                hintObject.SetActive(false);
-                return;
+                isCorrect = true;
+                break;
             }
         }
 
-        if (input == "") { return; }
-        Debug.Log(input);
+        if (!isCorrect)
+        {
+            hintObject.SetActive(false);
+            inputField.text = "";
+            foreach (CardDisplay cardDisplay in CardDisplayObjects)
+            {
+                if (!cardDisplay.isFlipped) continue;
+                cardDisplay.TurnCard();
+            }
+            numberOfFlippedCards = 0;
+            return;
+        }
         List<GameObject> cardsToDestroy = new List<GameObject>();
         foreach (CardDisplay card in CardDisplayObjects)
         {
-            if(card.card.definition == input)
+            if(NormalizeString(card.card.definition) == input)
             {
                 cardsToDestroy.Add(card.gameObject);
             }
@@ -205,16 +230,48 @@ public class CardManager : MonoBehaviour
             CardDisplayObjects.Remove(cardsToDestroy[i].GetComponent<CardDisplay>());
             Destroy(cardsToDestroy[i]);
         }
+        SFX.PlayOneShot(ClearSound);
+
         hudScript.GetCheckmarks(difficultyLevel);
 
         if(CardDisplayObjects.Count == 0)
         {
+            SFX.volume = 3f;
+            SFX.PlayOneShot(EndSound);
             hintObject.SetActive(false);
             endScreen.SetActive(true);
             hudScript.EndCheckmarkText.GetComponent<TMP_Text>().text = hudScript.goldenCheckmarks.ToString();
             hudScript.EndScoreText.GetComponent<TMP_Text>().text = hudScript.score.ToString();
+            PermenantRessources.goldenCheckmarks += hudScript.goldenCheckmarks;
+            PermenantRessources.CheckForHighScore(hudScript.score);
+
         }
     }
 
+    //Utils function to make strings easy to compare
+    public string NormalizeString(string input)
+    {
+        if (string.IsNullOrEmpty(input))
+            return string.Empty;
 
+        // Remove whitespace
+        string noWhitespace = input.Replace(" ", "");
+
+        // Convert to lowercase
+        string lowercase = noWhitespace.ToLower();
+
+        // Remove diacritics (accents)
+        string normalized = lowercase.Normalize(NormalizationForm.FormD);
+        StringBuilder result = new StringBuilder();
+
+        foreach (char c in normalized)
+        {
+            if (CharUnicodeInfo.GetUnicodeCategory(c) != UnicodeCategory.NonSpacingMark)
+            {
+                result.Append(c);
+            }
+        }
+
+        return result.ToString();
+    }
 }

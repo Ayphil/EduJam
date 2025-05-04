@@ -1,4 +1,5 @@
 using Animancer;
+using MoreMountains.Feedbacks;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -21,20 +22,25 @@ public class CardDisplay : MonoBehaviour
     public delegate void FlipCard(Card card);
 
     public static event FlipCard flipCard;
+    private void Start()
+    {
+        GetComponent<MMF_Player>().GetFeedbackOfType<MMF_AudioSource>().TargetAudioSource = flipSound1;
+    }
     public void ShowHint()
     {
         hintObject.SetActive(true);
         hintObject.GetComponentInChildren<TMP_Text>().text = card.hint;
         flipCard (card);
         brain.Play(flipAnimation1);
-        flipSound1.enabled = true;
-        flipSound1.Play();
         hintObject.SetActive(true);
         isFlipped = true;
+        GetComponent<MMF_Player>().PlayFeedbacks();
+
     }
 
     public void TurnCard()
     {
+        GetComponent<MMF_Player>().PlayFeedbacks();
         isFlipped = !isFlipped;
 
         if(!isFlipped)
