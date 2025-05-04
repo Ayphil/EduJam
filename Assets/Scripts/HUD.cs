@@ -1,15 +1,20 @@
 using Animancer;
 using TMPro;
+using UnityEditor.SearchService;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HUD : MonoBehaviour
 {
-    [SerializeField] private int score = 0;
-    [SerializeField] private int goldenCheckmarks = 0;
+    [SerializeField] public int score = 0;
+    [SerializeField] public int goldenCheckmarks = 0;
 
     [SerializeField] private GameObject Checkmark;
     [SerializeField] private AnimancerComponent CheckmarkBrain;
     [SerializeField] private AnimationClip CheckmarkAnimation;
+
+    [SerializeField] public GameObject EndCheckmarkText;
+    [SerializeField] public GameObject EndScoreText;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void GetCheckmarks(Difficulty.DifficultyLevel level)
     {
@@ -27,8 +32,8 @@ public class HUD : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    public void LoadMainMenu()
     {
-        
+        SceneManager.LoadScene(2);
     }
 }
