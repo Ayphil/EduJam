@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dictionary.unity
     guid: 1d5e7b7628b01ce4c8f6b4f04533479a
+  - enabled: 1
+    path: Assets/Scenes/EmmanuelWorkingOn.unity
+    guid: 654d6798a082e5d4daeecf1fea9ea546
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -15,6 +15,8 @@ public class CardManager : MonoBehaviour
 
     [SerializeField] private GameObject hintObject;
 
+    [SerializeField] private GameObject endScreen;
+
     [SerializeField] private Transform cardsParent;
 
     [SerializeField] private TMP_InputField inputField;
@@ -175,6 +177,16 @@ public class CardManager : MonoBehaviour
 
     public void WriteDefinition(string input)
     {
+        foreach(Defintion definition in currentDefinitions)
+        {
+            if (input == definition.Definition)
+            {
+                inputField.text = "";
+                hintObject.SetActive(false);
+                return;
+            }
+        }
+
         if (input == "") { return; }
         Debug.Log(input);
         List<GameObject> cardsToDestroy = new List<GameObject>();
@@ -194,6 +206,14 @@ public class CardManager : MonoBehaviour
             Destroy(cardsToDestroy[i]);
         }
         hudScript.GetCheckmarks(difficultyLevel);
+
+        if(CardDisplayObjects.Count == 0)
+        {
+            hintObject.SetActive(false);
+            endScreen.SetActive(true);
+            hudScript.EndCheckmarkText.GetComponent<TMP_Text>().text = hudScript.goldenCheckmarks.ToString();
+            hudScript.EndScoreText.GetComponent<TMP_Text>().text = hudScript.score.ToString();
+        }
     }
 
 
