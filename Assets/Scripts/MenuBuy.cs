@@ -1,5 +1,6 @@
 using Animancer;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class MenuBuy : MonoBehaviour
@@ -7,6 +8,7 @@ public class MenuBuy : MonoBehaviour
 
     [SerializeField] private MainMenuRessources mainMenuRessources;
     [SerializeField] private Ressources ressources;
+    [SerializeField] private Button easyButton;
 
     [SerializeField] private int normalCost = 2;
     [SerializeField] private Button normalDifficultyButton;
@@ -43,6 +45,8 @@ public class MenuBuy : MonoBehaviour
         normalDifficultyButton.onClick.AddListener(() => OnBuyDifficulty(0));
         hardDifficultyButton.onClick.AddListener(() => OnBuyDifficulty(1));
         hellDifficultyButton.onClick.AddListener(() => OnBuyDifficulty(2));
+
+        CheckForUnlocked();
     }
     public void OnBuyDifficulty(int difficultyLevel)
     {
@@ -73,19 +77,59 @@ public class MenuBuy : MonoBehaviour
             case 0:
                 normalBrain.Play(normalDifficultyAnimation);
                 normalDifficultyButton.onClick.RemoveAllListeners();
+                normalDifficultyButton.onClick.AddListener(() => PlayDifficulty(Difficulty.DifficultyLevel.Medium));
+                ressources.isNormalUnlocked = true;
                 normalPriceText.SetActive(false);
                 break;
             case 1:
                 hardBrain.Play(hardDifficultyAnimation);
                 hardDifficultyButton.onClick.RemoveAllListeners();
+                hardDifficultyButton.onClick.AddListener(() => PlayDifficulty(Difficulty.DifficultyLevel.Hard));
+                ressources.isHardUnlocked = true;
                 hardPriceText.SetActive(false);
                 break;
             case 2:
                 hellBrain.Play(hardDifficultyAnimation);
                 hellDifficultyButton.onClick.RemoveAllListeners();
+                hellDifficultyButton.onClick.AddListener(() => PlayDifficulty(Difficulty.DifficultyLevel.Hell));
+                ressources.isHellUnlocked = true;
                 hellPriceText.SetActive(false);
                 break;
         }
     }
 
+    public void CheckForUnlocked()
+    {
+        easyButton.onClick.AddListener(() => PlayDifficulty(Difficulty.DifficultyLevel.Easy));
+        if (ressources.isNormalUnlocked)
+        {
+            normalBrain.Play(normalDifficultyAnimation);
+            normalDifficultyButton.onClick.RemoveAllListeners();
+            normalDifficultyButton.onClick.AddListener(() => PlayDifficulty(Difficulty.DifficultyLevel.Medium));
+            ressources.isNormalUnlocked = true;
+            normalPriceText.SetActive(false);
+        }
+        if (ressources.isHardUnlocked)
+        {
+            hardBrain.Play(hardDifficultyAnimation);
+            hardDifficultyButton.onClick.RemoveAllListeners();
+            hardDifficultyButton.onClick.AddListener(() => PlayDifficulty(Difficulty.DifficultyLevel.Hard));
+            ressources.isHardUnlocked = true;
+            hardPriceText.SetActive(false);
+        }
+        if (ressources.isHellUnlocked)
+        {
+            hellBrain.Play(hardDifficultyAnimation);
+            hellDifficultyButton.onClick.RemoveAllListeners();
+            hellDifficultyButton.onClick.AddListener(() => PlayDifficulty(Difficulty.DifficultyLevel.Hell));
+            ressources.isHellUnlocked = true;
+            hellPriceText.SetActive(false);
+        }
+    }
+
+    public void PlayDifficulty(Difficulty.DifficultyLevel level)
+    {
+        ressources.difficultyLevel = level;
+        SceneManager.LoadScene(5);
+    }
 }

@@ -1,16 +1,21 @@
+using System;
 using UnityEngine;
 
 public class Dictionary : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    [SerializeField] public Canvas canvas;
 
-    // Update is called once per frame
-    void Update()
+    [SerializeField] public int chosen = 0;
+    [SerializeField] public Canvas DE;
+    public void HideAll()
     {
-        
+
+    }
+    public void DemEva()
+    {
+        if (chosen == 0)
+        {
+
+        }
     }
 }
