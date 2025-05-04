@@ -15,4 +15,4 @@ MonoBehaviour:
   difficultyLevel: 3
   amountOfDefinitions: 12
   maxAmountOfHints: 2
-  cardPositionPrefab: {fileID: 0}
+  cardPositionPrefab: {fileID: 3264969051300170091, guid: e163049f2f03cba4aaf9da2ab3f83c06, type: 3}
