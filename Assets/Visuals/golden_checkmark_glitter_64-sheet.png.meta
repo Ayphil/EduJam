@@ -216,12 +216,12 @@ TextureImporter:
       name: golden_checkmark_glitter_64-sheet_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 7
-        width: 58
-        height: 54
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -235,37 +235,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: golden_checkmark_glitter_64-sheet_1
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 51
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c86c06ccec1810ff0800000000000000
-      internalID: -71633393869076852
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: golden_checkmark_glitter_64-sheet_2
       rect:
         serializedVersion: 2
-        x: 67
-        y: 4
-        width: 60
-        height: 57
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -282,12 +260,12 @@ TextureImporter:
       name: golden_checkmark_glitter_64-sheet_3
       rect:
         serializedVersion: 2
-        x: 132
-        y: 7
-        width: 57
-        height: 54
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -301,59 +279,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: golden_checkmark_glitter_64-sheet_4
-      rect:
-        serializedVersion: 2
-        x: 196
-        y: 55
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1b32defef832906c0800000000000000
-      internalID: -4176768078296833103
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: golden_checkmark_glitter_64-sheet_5
-      rect:
-        serializedVersion: 2
-        x: 229
-        y: 52
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dbfbfee5847134250800000000000000
-      internalID: 5927607134147559357
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: golden_checkmark_glitter_64-sheet_6
       rect:
         serializedVersion: 2
-        x: 260
-        y: 7
-        width: 58
-        height: 54
+        x: 256
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -367,103 +301,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: golden_checkmark_glitter_64-sheet_7
-      rect:
-        serializedVersion: 2
-        x: 292
-        y: 51
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ed6cf3a8727798eb0800000000000000
-      internalID: -4717108122987018530
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: golden_checkmark_glitter_64-sheet_8
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 35
-        width: 12
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 92a689d4e40600930800000000000000
-      internalID: 4107388749587442217
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: golden_checkmark_glitter_64-sheet_9
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 35
-        width: 10
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 158d7727e967d78b0800000000000000
-      internalID: -5152831975744612271
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: golden_checkmark_glitter_64-sheet_10
-      rect:
-        serializedVersion: 2
-        x: 196
-        y: 32
-        width: 10
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aa4f6fca64d047ea0800000000000000
-      internalID: -5876057016610917206
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: golden_checkmark_glitter_64-sheet_11
       rect:
         serializedVersion: 2
-        x: 206
-        y: 7
-        width: 48
-        height: 45
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -476,407 +322,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: golden_checkmark_glitter_64-sheet_12
-      rect:
-        serializedVersion: 2
-        x: 261
-        y: 35
-        width: 12
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: be545b9d20d9aaa90800000000000000
-      internalID: -7301851210259806741
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: golden_checkmark_glitter_64-sheet_13
-      rect:
-        serializedVersion: 2
-        x: 51
-        y: 18
-        width: 11
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0725ff3ee7bed63a0800000000000000
-      internalID: -6670416542842269072
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: golden_checkmark_glitter_64-sheet_14
-      rect:
-        serializedVersion: 2
-        x: 118
-        y: 21
-        width: 8
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: feb6cd1149c7ce390800000000000000
-      internalID: -7787712680233767953
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: golden_checkmark_glitter_64-sheet_15
-      rect:
-        serializedVersion: 2
-        x: 182
-        y: 21
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ac9c914a20ff056b0800000000000000
-      internalID: -5309463573861643830
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: golden_checkmark_glitter_64-sheet_16
-      rect:
-        serializedVersion: 2
-        x: 246
-        y: 21
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1532c810b4d1b5660800000000000000
-      internalID: 7375521022735033169
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: golden_checkmark_glitter_64-sheet_17
-      rect:
-        serializedVersion: 2
-        x: 307
-        y: 18
-        width: 11
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ed9373e3de39d7040800000000000000
-      internalID: 4647033037676558814
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: golden_checkmark_glitter_64-sheet_18
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 2
-        width: 12
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dc886f0f605fb4580800000000000000
-      internalID: -8841704033250539315
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: golden_checkmark_glitter_64-sheet_19
-      rect:
-        serializedVersion: 2
-        x: 41
-        y: 4
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 09f50a44c37568e20800000000000000
-      internalID: 3352462888984928144
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: golden_checkmark_glitter_64-sheet_20
-      rect:
-        serializedVersion: 2
-        x: 55
-        y: 1
-        width: 9
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 94809fb33cfb7a470800000000000000
-      internalID: 8405898074756024393
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: golden_checkmark_glitter_64-sheet_21
-      rect:
-        serializedVersion: 2
-        x: 133
-        y: 3
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3015ca4e7c4d818e0800000000000000
-      internalID: -1722392902469136125
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: golden_checkmark_glitter_64-sheet_22
-      rect:
-        serializedVersion: 2
-        x: 169
-        y: 6
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 72cee005c7f285d50800000000000000
-      internalID: 6726178254443441191
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: golden_checkmark_glitter_64-sheet_23
-      rect:
-        serializedVersion: 2
-        x: 181
-        y: 8
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2e4792bdac1722060800000000000000
-      internalID: 6927224292923503842
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: golden_checkmark_glitter_64-sheet_24
-      rect:
-        serializedVersion: 2
-        x: 194
-        y: 1
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cd543ff46e014cc70800000000000000
-      internalID: 8990329337508218332
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: golden_checkmark_glitter_64-sheet_25
-      rect:
-        serializedVersion: 2
-        x: 233
-        y: 4
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 925050fbb8daace40800000000000000
-      internalID: 5677541095970768169
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: golden_checkmark_glitter_64-sheet_26
-      rect:
-        serializedVersion: 2
-        x: 245
-        y: 5
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9072c1676aeceefc0800000000000000
-      internalID: -3463603849059883255
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: golden_checkmark_glitter_64-sheet_27
-      rect:
-        serializedVersion: 2
-        x: 259
-        y: 2
-        width: 12
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0539d9acbe7d9d660800000000000000
-      internalID: 7411192069531472720
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: golden_checkmark_glitter_64-sheet_28
-      rect:
-        serializedVersion: 2
-        x: 297
-        y: 4
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6575a38a3089c5ae0800000000000000
-      internalID: -1559204229502314666
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: golden_checkmark_glitter_64-sheet_29
-      rect:
-        serializedVersion: 2
-        x: 311
-        y: 1
-        width: 9
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: be19fa79c958af430800000000000000
-      internalID: 3817510541756174827
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: bab7a60e9e3d4ae44afb7c1afa0aa106
     internalID: 0
     vertices: []
     indices: 
@@ -885,7 +335,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      golden_checkmark_glitter_64-sheet_0: 6097713855875912382
+      golden_checkmark_glitter_64-sheet_11: 6519830285177563995
+      golden_checkmark_glitter_64-sheet_2: 6379339833034475160
+      golden_checkmark_glitter_64-sheet_3: -8274696939813355731
+      golden_checkmark_glitter_64-sheet_6: -4175083445960103324
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

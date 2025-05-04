@@ -7,9 +7,21 @@ using UnityEngine.UI;
 
 public class CardManager : MonoBehaviour
 {
+    [Header("To set yourself")]
+
     [SerializeField] List<Defintion> definitions = new List<Defintion>();
 
     [SerializeField] List<Difficulty> difficulties = new List<Difficulty>();
+
+    [SerializeField] private GameObject hintObject;
+
+    [SerializeField] private Transform cardsParent;
+
+    [SerializeField] private TMP_InputField inputField;
+
+    [SerializeField] private HUD hudScript;
+
+    [Header("Internal Logic/Debugging")]
 
     [SerializeField] private Difficulty.DifficultyLevel difficultyLevel;
 
@@ -19,21 +31,16 @@ public class CardManager : MonoBehaviour
 
     [SerializeField] private List<Defintion> currentDefinitions = new List<Defintion>();
 
-    [SerializeField] private List<CardDisplay> CardDisplayObjects;
+    [SerializeField] private List<CardDisplay> CardDisplayObjects = new List<CardDisplay>();
 
-    [SerializeField] private GameObject cardPrefab;
-
-    [SerializeField] private GameObject hintObject;
-
-    [SerializeField] private Transform cardsParent;
-
-    public TMP_InputField inputField;
+    [SerializeField] private int numberOfFlippedCards = 0;
 
     private Difficulty setDifficulty;
+
     private List<Card> CurrentCards = new List<Card>();
 
     private string currentDefinition = "";
-    [SerializeField] private int numberOfFlippedCards = 0;
+
     private void OnEnable()
     {
         CardDisplay.flipCard += onCardFlipped;
@@ -45,32 +52,13 @@ public class CardManager : MonoBehaviour
         CardDisplay.flipCard -= onCardFlipped;
         inputField.onEndEdit.RemoveListener(WriteDefinition);
     }
-
-
-    private void onCardFlipped(Card card)
-    {
-        Debug.Log(card.definition);
-        if(currentDefinition == card.definition)
-        {
-            numberOfFlippedCards++;
-        }
-        else
-        {
-            currentDefinition = card.definition;
-
-            foreach(CardDisplay cardDisplay in CardDisplayObjects)
-            {
-                if(!cardDisplay.isFlipped) continue;
-                cardDisplay.GetComponent<CardDisplay>().TurnCard();
-            }
-            numberOfFlippedCards = 1;
-        }
-
-
-
-    }
     private void Start()
     {
+        if (difficulties.Count == 0 || hintObject == null || inputField == null)
+        {
+            Debug.LogError("Critical components not assigned in inspector!");
+            return;
+        }
 
         foreach (var difficulty in difficulties)
         {
@@ -81,11 +69,40 @@ public class CardManager : MonoBehaviour
                 MaxAmountOfHints = setDifficulty.maxAmountOfHints;
             }
         }
+        if (setDifficulty == null)
+        {
+            Debug.LogError($"Difficulty level '{difficultyLevel}' not found in the difficulties list! Aborting CardManager setup.");
+            this.enabled = false; // Disable the component to prevent further errors
+            return; // Stop execution of Start()
+        }
+
         GenerateCards();
         PlaceCards();
 
 
     }
+
+    private void onCardFlipped(Card card)
+    {
+        Debug.Log(card.definition);
+        if (currentDefinition == card.definition)
+        {
+            numberOfFlippedCards++;
+        }
+        else
+        {
+            currentDefinition = card.definition;
+
+            foreach (CardDisplay cardDisplay in CardDisplayObjects)
+            {
+                if (!cardDisplay.isFlipped) continue;
+                cardDisplay.TurnCard();
+            }
+            numberOfFlippedCards = 1;
+        }
+    }
+
+
 
     // Update is called once per frame
     public void PlaceCards()
@@ -97,10 +114,17 @@ public class CardManager : MonoBehaviour
         {
             CardDisplay display = CardsParent.transform.GetChild(i).GetComponent<CardDisplay>();
 
-            display.card = CurrentCards[Random.Range(0, CurrentCards.Count)];
-            display.hintObject = hintObject;
-            CardDisplayObjects.Add(display);
-            CurrentCards.Remove(display.card);
+            if (CurrentCards.Count > 0)
+            {
+                display.card = CurrentCards[Random.Range(0, CurrentCards.Count)];
+                display.hintObject = hintObject;
+                CardDisplayObjects.Add(display);
+                CurrentCards.Remove(display.card);
+            }
+            else
+            {
+                Debug.LogError("Ran out of cards to assign!");
+            }
         }
     }
 
@@ -167,7 +191,9 @@ public class CardManager : MonoBehaviour
             inputField.text = "";
             CardDisplayObjects.Remove(cardsToDestroy[i].GetComponent<CardDisplay>());
             Destroy(cardsToDestroy[i]);
+            hudScript.GetCheckmarks(difficultyLevel);
         }
     }
+
 
 }
