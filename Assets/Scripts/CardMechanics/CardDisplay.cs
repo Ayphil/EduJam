@@ -15,6 +15,8 @@ public class CardDisplay : MonoBehaviour
     [SerializeField] public AnimationClip flipAnimation1;
 
     [SerializeField] public AnimancerComponent brain;
+
+    [SerializeField] public AudioSource flipSound1;
      
     public delegate void FlipCard(Card card);
 
@@ -25,6 +27,8 @@ public class CardDisplay : MonoBehaviour
         hintObject.GetComponentInChildren<TMP_Text>().text = card.hint;
         flipCard (card);
         brain.Play(flipAnimation1);
+        flipSound1.enabled = true;
+        flipSound1.Play();
         hintObject.SetActive(true);
         isFlipped = true;
     }

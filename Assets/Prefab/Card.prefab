@@ -114,6 +114,7 @@ MonoBehaviour:
   flipAnimation2: {fileID: 7400000, guid: 6bfb802b737769342a53fd7664db7a0f, type: 2}
   flipAnimation1: {fileID: 7400000, guid: 8f8151b2e976fe0409574fe7b3a60c6e, type: 2}
   brain: {fileID: 8021122808785662980}
+  flipSound1: {fileID: -7778664936841528911, guid: 9fbe22d139ed08a4c9d291e849f607e7, type: 3}
 --- !u!114 &8248893634101231905
 MonoBehaviour:
   m_ObjectHideFlags: 0
