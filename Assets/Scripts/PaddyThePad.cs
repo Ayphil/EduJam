@@ -65,10 +65,15 @@ public class PaddyThePad : MonoBehaviour
         if(timeToNextChange <= 0f)
         {
             Tween.ShakeScale(body.transform, Vector3.one * 1.2f, 0.5f, 1f);
+            brain.Stop();
             switch (Random.Range(0, 4))
             {
                 case 0:
-                    brain.Play(animationClip);
+                    if(animationClip != null) brain.Play(animationClip);
+                    else
+                    {
+                        body.sprite = sprites[0];
+                    }
                     break;
                 case 1:
                     body.sprite = sprites[1];
@@ -92,7 +97,7 @@ public class PaddyThePad : MonoBehaviour
                 paddyThePadTextBox.GetComponentInChildren<TMP_Text>().text = cheeringTexts[Random.Range(0, cheeringTexts.Count)];
 
                 timeToNextInterruption = Random.Range(15f, 40f);
-                Tween.UIAnchoredPositionX(this.GetComponent<RectTransform>(), 420f, 320f, 0.4f)
+                Tween.UIAnchoredPositionX(this.GetComponent<RectTransform>(), 450f, 320f, 0.4f)
                     .Chain(Tween.Rotation(this.transform, new Vector3(0, 0, -8f), 0.15f, 0f))
                     .Chain(Tween.Rotation(this.transform, new Vector3(0, 0, 8f), 0.15f, 0f))
                     .Chain(Tween.Rotation(this.transform, new Vector3(0, 0, 0), 0.1f, 0f))
@@ -101,7 +106,7 @@ public class PaddyThePad : MonoBehaviour
                     .Chain(Tween.Delay(4f))
                     .Chain(Tween.Alpha(paddyThePadTextBox.GetComponent<Image>(), 0, 1f))
                     .Group(Tween.Color(paddyThePadTextBox.GetComponentInChildren<TMP_Text>(), new Color(0f, 0f, 0f, 0f), 1f))
-                    .Chain(Tween.UIAnchoredPositionX(this.GetComponent<RectTransform>(), 320f, 420f, 0.4f)
+                    .Chain(Tween.UIAnchoredPositionX(this.GetComponent<RectTransform>(), 320f, 450f, 0.4f)
     );
 
                 paddyThePadTextBox.GetComponent<Image>().color = new Color(1, 1, 1, 1);
