@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dressup_prop1_64_0: 2655919169164329473
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
