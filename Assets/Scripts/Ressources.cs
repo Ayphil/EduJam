@@ -3,7 +3,7 @@ using UnityEngine;
 public class Ressources : MonoBehaviour
 {
     [SerializeField] public int goldenCheckmarks;
-    [SerializeField] public int highScore;
+    [SerializeField] public float highScore;
 
     [SerializeField] public Difficulty.DifficultyLevel difficultyLevel;
 
@@ -18,11 +18,11 @@ public class Ressources : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
     }
 
-    public void CheckForHighScore(int score)
+    public void CheckForHighScore(float score)
     {
         if (score > highScore)
         {
-            highScore = score;
+            highScore = (int)score;
         }
     }
 

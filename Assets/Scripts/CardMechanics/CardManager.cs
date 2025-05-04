@@ -246,8 +246,8 @@ public class CardManager : MonoBehaviour
             interval += 1;
         }
 
-        hudScript.AddPoints(interval, flippedCardSum);
         hudScript.GetCheckmarks(difficultyLevel);
+        hudScript.AddPoints(interval, flippedCardSum);
 
         flippedCardSum = 0;
 

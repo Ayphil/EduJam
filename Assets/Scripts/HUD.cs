@@ -1,3 +1,4 @@
+using System;
 using Animancer;
 using TMPro;
 using UnityEditor.SearchService;
@@ -6,9 +7,9 @@ using UnityEngine.SceneManagement;
 
 public class HUD : MonoBehaviour
 {
-    [SerializeField] public int score = 0;
-    [SerializeField] private int multiplier = 2;
-    [SerializeField] private int comboStreak = 2;
+    [SerializeField] public float score = 0;
+    [SerializeField] private int multiplier = 5;
+    [SerializeField] private float comboStreak = 0;
     [SerializeField] public int goldenCheckmarks = 0;
 
     [SerializeField] public TMP_Text scoreText;
@@ -18,9 +19,12 @@ public class HUD : MonoBehaviour
 
     [SerializeField] public GameObject EndCheckmarkText;
     [SerializeField] public GameObject EndScoreText;
+
+    [SerializeField] public Difficulty.DifficultyLevel difficultyLevel;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void GetCheckmarks(Difficulty.DifficultyLevel level)
     {
+        difficultyLevel = level;
         if (level == Difficulty.DifficultyLevel.Easy || level == Difficulty.DifficultyLevel.Medium)
         {
             goldenCheckmarks += 1;
@@ -29,19 +33,18 @@ public class HUD : MonoBehaviour
         {
             goldenCheckmarks += 2;
         }
-
         CheckmarkBrain.Play(CheckmarkAnimation);
         Checkmark.GetComponentInChildren<TMP_Text>().text = goldenCheckmarks.ToString();
     }
 
     public void AddPoints(int interval, int flippedCardSum)
     {
-
         if (interval == 0)
         {
-            comboStreak += 1;
+            comboStreak += 1f;
         }
-        score += ((multiplier / (2 * flippedCardSum)) * comboStreak) * score + 1000;
+        score += (1000 * comboStreak + 1000)* 0.75f + (float)difficultyLevel*0.25f;
+        score = (int)score;
         scoreText.text = "Score : " + score.ToString();
     }
 

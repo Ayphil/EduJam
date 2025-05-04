@@ -22,7 +22,7 @@ public class MainMenuRessources : MonoBehaviour
 
         goldenCheckmarks = ressource.goldenCheckmarks;
         CheckmarkText.text = goldenCheckmarks.ToString();
-        score = ressource.highScore;
+        score = (int)ressource.highScore;
         ScoreText.text = "Score max.: " +score.ToString();
     }
 

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Definition: "D\xE9marche \xC9valuative"
   Hints:
-  - "Je suis compos\xE9e de cinq \xE9tapes, de la planification \xE0 la communication.\r\n"
-  - "On me suit pour \xE9viter de juger \xAB au feeling \xBB.\r\n"
+  - "Je suis compos\xE9e de cinq \xE9tapes, de la planification \xE0 la communication.\r"
+  - "On me suit pour \xE9viter de juger \xAB au feeling \xBB.\r"
   - "Je commence par \xAB quoi \xE9valuer ? \xBB et je termine par \xAB comment communiquer
-    ? \xBB. \r\n"
-  - "Mon but est de rendre le jugement professionnel rigoureux et structur\xE9.\r\n"
+    ? \xBB. \r"
+  - "Mon but est de rendre le jugement professionnel rigoureux et structur\xE9.\r"
