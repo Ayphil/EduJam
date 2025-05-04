@@ -1,3 +1,4 @@
+using MoreMountains.Tools;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
@@ -47,6 +48,10 @@ public class CardManager : MonoBehaviour
 
     [SerializeField] private int numberOfFlippedCards = 0;
 
+    [SerializeField] private int interval = 0;
+
+    [SerializeField] private int flippedCardSum = 0;
+
     private Difficulty setDifficulty;
 
     private List<Card> CurrentCards = new List<Card>();
@@ -67,6 +72,7 @@ public class CardManager : MonoBehaviour
     private void Start()
     {
         PermenantRessources = FindFirstObjectByType<Ressources>();
+        difficultyLevel = PermenantRessources.difficultyLevel;
         if (difficulties.Count == 0 || hintObject == null || inputField == null)
         {
             Debug.LogError("Critical components not assigned in inspector!");
@@ -98,6 +104,7 @@ public class CardManager : MonoBehaviour
     private void onCardFlipped(Card card)
     {
         Debug.Log(card.definition);
+        flippedCardSum += 1;
         if (currentDefinition == card.definition)
         {
             numberOfFlippedCards++;
@@ -226,6 +233,7 @@ public class CardManager : MonoBehaviour
 
         for(int i = cardsToDestroy.Count-1; i >= 0; i--)
         {
+            interval = 0;
             hintObject.SetActive(false);
             inputField.text = "";
             CardDisplayObjects.Remove(cardsToDestroy[i].GetComponent<CardDisplay>());
@@ -233,9 +241,17 @@ public class CardManager : MonoBehaviour
         }
         SFX.PlayOneShot(ClearSound);
 
+        if (flippedCardSum != 1)
+        {
+            interval += 1;
+        }
+
+        hudScript.AddPoints(interval, flippedCardSum);
         hudScript.GetCheckmarks(difficultyLevel);
 
-        if(CardDisplayObjects.Count == 0)
+        flippedCardSum = 0;
+
+        if (CardDisplayObjects.Count == 0)
         {
             SFX.volume = 3f;
             SFX.PlayOneShot(EndSound);

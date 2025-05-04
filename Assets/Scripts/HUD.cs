@@ -7,8 +7,11 @@ using UnityEngine.SceneManagement;
 public class HUD : MonoBehaviour
 {
     [SerializeField] public int score = 0;
+    [SerializeField] private int multiplier = 2;
+    [SerializeField] private int comboStreak = 2;
     [SerializeField] public int goldenCheckmarks = 0;
 
+    [SerializeField] public TMP_Text scoreText;
     [SerializeField] private GameObject Checkmark;
     [SerializeField] private AnimancerComponent CheckmarkBrain;
     [SerializeField] private AnimationClip CheckmarkAnimation;
@@ -29,6 +32,17 @@ public class HUD : MonoBehaviour
 
         CheckmarkBrain.Play(CheckmarkAnimation);
         Checkmark.GetComponentInChildren<TMP_Text>().text = goldenCheckmarks.ToString();
+    }
+
+    public void AddPoints(int interval, int flippedCardSum)
+    {
+
+        if (interval == 0)
+        {
+            comboStreak += 1;
+        }
+        score += ((multiplier / (2 * flippedCardSum)) * comboStreak) * score + 1000;
+        scoreText.text = "Score : " + score.ToString();
     }
 
     // Update is called once per frame
