@@ -360,7 +360,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      card_back_animationsheet_64_0: -1596926538052276383
+      card_back_animationsheet_64_1: 6405335320091509247
+      card_back_animationsheet_64_2: 3132503378693040960
+      card_back_animationsheet_64_3: -493767265774731265
+      card_back_animationsheet_64_4: -8066629573369484100
+      card_back_animationsheet_64_5: 4004859413368719244
+      card_back_animationsheet_64_6: -600633829418372243
+      card_back_animationsheet_64_7: 2681181356477141805
+      card_back_animationsheet_64_8: -7984906368774710861
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
