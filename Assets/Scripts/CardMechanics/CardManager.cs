@@ -66,6 +66,7 @@ public class CardManager : MonoBehaviour
     }
     private void Start()
     {
+        PermenantRessources = FindFirstObjectByType<Ressources>();
         if (difficulties.Count == 0 || hintObject == null || inputField == null)
         {
             Debug.LogError("Critical components not assigned in inspector!");
